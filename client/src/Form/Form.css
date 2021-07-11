@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+    padding: 5% 5%;
+    max-width: 300px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    background-color: palegreen;
+}
+
+.form_element{
+    width: 100%;
+    font-size: 18px;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.currency{
+    width: 100px;
+
+}
+.submit_btn{
+    margin-top: 15px;
+
+}
