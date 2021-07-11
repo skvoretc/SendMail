@@ -29,7 +29,7 @@ app.post('/api/form', (req,res) =>{
         })
         let mailOptions = {
             from: "testovytesting@yandex.ru",
-            to: "xlev99@gmail.com",
+            to: req.body.email,
             replyTo: "testovytesting@yandex.ru",
             subject: "Запрос на обмен валюты",
             text: "",
